@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position CSS</title>
+        <style>
+            .static {
+                position: static;
+                border: 2px solid green;
+            }
+            .relative {
+                width: 100px;
+                height: 100px;
+                color: #fff;
+                background: #000;
+                position: relative;
+                top: 150px;
+                left: 150px;
+            }
+            .absolute {
+                width: 100px;
+                height: 100px;
+                background: #ff0000;
+                color: #fff;
+                position: absolute;
+                top: 50%;
+            }
+            .fixed {
+                width: 100px;
+                height: 100px;
+                background: purple;
+                color: #fff;
+                position: fixed;
+                top:50%;
+            }
+            .sticky {
+                width: 100px;
+                height: 100px;
+                background: orange;
+                color: #fff;
+                position: sticky;
+                left:300px;
+            }
+            .inherit {
+                position: inherit;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="static">
+            <p>I am a CONTAINER</p>
+            <div class="relative">I am a relative CHILD</div>
+            <div class="absolute">I am an absolute CHILD</div>
+            <div class="fixed">I am a fixed CHILD</div>
+            <div class="sticky">I am a sticky CHILD</div>
+            <div class="inherit">I am an inheirt CHILD</div>
+        </div>
+    </body>
+</html>

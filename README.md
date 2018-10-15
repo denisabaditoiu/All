@@ -2,5 +2,5 @@
 
 # Content
 
-- HTML Basics
-- CSS Basics
+- [HTML Basics](https://bitbucket.org/ccartas/webtech-labs/lab01)
+- [CSS Basics](https://bitbucket.org/ccartas/webtech-labs/lab02)
