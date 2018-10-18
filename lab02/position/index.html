@@ -3,9 +3,14 @@
     <head>
         <title>Position CSS</title>
         <style>
+            html, body {
+                height: 100%;
+                width: 100%;
+            }
             .static {
                 position: static;
                 border: 2px solid green;
+                height: 2500px;
             }
             .relative {
                 width: 100px;
@@ -23,6 +28,7 @@
                 color: #fff;
                 position: absolute;
                 top: 50%;
+                left: 30%;
             }
             .fixed {
                 width: 100px;
@@ -31,6 +37,7 @@
                 color: #fff;
                 position: fixed;
                 top:50%;
+                left: 30%;
             }
             .sticky {
                 width: 100px;
@@ -38,7 +45,8 @@
                 background: orange;
                 color: #fff;
                 position: sticky;
-                left:300px;
+                top:99%;
+                left:15%;
             }
             .inherit {
                 position: inherit;
@@ -50,9 +58,10 @@
             <p>I am a CONTAINER</p>
             <div class="relative">I am a relative CHILD</div>
             <div class="absolute">I am an absolute CHILD</div>
-            <div class="fixed">I am a fixed CHILD</div>
-            <div class="sticky">I am a sticky CHILD</div>
             <div class="inherit">I am an inheirt CHILD</div>
         </div>
+        <div class="sticky">I am a sticky CHILD</div>
+        <div class="fixed">I am a fixed CHILD</div>
+        
     </body>
 </html>
