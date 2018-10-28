@@ -1,5 +1,5 @@
 # Homework 1 
-
+# Deadline: 08.11.2018
 # Task
 - Using CSS grid layout, create an HTML page that respects the same schema found in the `page_layout.png`;
 - General selectors:
