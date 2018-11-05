@@ -18,9 +18,10 @@ student.add = function(){
 }
 student.dynamicGetter('group');
 
-var stud = Object.create(student);
-stud.something = function(){
+var employee = Object.create(student);
+employee.specificMethod = function(){
     console.log('Do something');
 }
-console.log(stud);
+
+employee.add();
 
