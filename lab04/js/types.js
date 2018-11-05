@@ -34,3 +34,47 @@ a = 1 + undefined;
 console.log(a) // Not a Number
 a = 1 + null;
 console.log(a) // a is a Number
+a = 'string' + null;
+console.log(a);
+
+var b = 1;
+var c = true;
+
+if (b == c){
+    console.log("Values are equal");
+} else {
+    console.log("Values are not equal")
+}
+
+if (b === c){
+    console.log("Values are equal");
+} else {
+    console.log("Values are not equal");
+}
+
+if (b != c){
+    console.log("Values are not equal");
+} else {
+    console.log("Values are equal");
+}
+
+if (b !== c){
+    console.log("Values are not equal");
+} else {
+    console.log("Values are equal")
+}
+
+var d = 'pizza';
+
+if(d){
+    console.log("Something is here")
+} else {
+    console.log("Nothing is here")
+}
+
+function userParser(username='Defaul value'){
+    /*username = username || 'Default value';*/
+    console.log(username);
+}
+
+userParser();

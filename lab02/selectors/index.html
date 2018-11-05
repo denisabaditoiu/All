@@ -3,13 +3,13 @@
     <head>
         <title>Selectors CSS</title>
         <style>
-            button { /* Applies to all the buttons from the page */
+           button { /* Applies to all the buttons from the page */
                 background: red;
             }
-            div button { /* Applies to all the buttons inside a div */
-               color: blue;
+             div button { /* Applies to all the buttons inside a div */
+              color: blue;
             }
-            div > button { /* Applies to all the buttons that have div as a parent */
+           div > button { /* Applies to all the buttons that have div as a parent */
                 background: yellow;
             }
             div, p {  /* Applies to all the div and p from the page */
@@ -18,7 +18,7 @@
             div + button { /* First button after div tag */
             color: orange;
             }
-            p ~ div { /* Applies to all the divs that are preceeded by a p */
+           p ~ div { /* Applies to all the divs that are preceeded by a p */
                 background: blue;
             }
         </style>
@@ -41,9 +41,11 @@
             </ul>
         </div>
         <p>I am inside of a div</p>
+        
         <div>
             <button>Another button</button>
         </div>
+        <h1>something</h1>
         <div>
             <button>Another button</button>
         </div>

@@ -1,4 +1,5 @@
 # Homework 1 
+# IMPORTANT: KEEP YOUR REPOSITORIES PUBLIC (DON'T MAKE YOUR REPOSITORY PRIVATE)
 # [Submit Homework Form](https://goo.gl/forms/d4n8ycMRxm2d66zX2)
 # Deadline: 08.11.2018
 # Task
