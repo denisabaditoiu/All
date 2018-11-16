@@ -4,6 +4,6 @@
 
 # Project Phases
 
-### -   Phase 1 - Deadline 25.11.2018 (END OF WEEK 7)
-### -   Phase 2 - 
-### -   Phase 3 - Last Laboratory (DEMO)
+### -   Phase 1 - Deadline 25.11.2018 (END OF WEEK 7) [Submit Form]()
+### -   Phase 2 - TO BE ESTABLISHED [Submit Form]()
+### -   Phase 3 - Last Laboratory (DEMO) [Submit Form]()
