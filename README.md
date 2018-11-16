@@ -1,6 +1,14 @@
 # Web Technologies Labs:
 
-# Content
+# Project Details
+
+- [Project Details](https://bitbucket.org/ccartas/webtech-labs/src/master/project/)
+
+# Homework Details
+
+- [Homeworks](https://bitbucket.org/ccartas/webtech-labs/src/master/homeworks)
+
+# Labs Content
 
 - [HTML Basics](https://bitbucket.org/ccartas/webtech-labs/src/master/lab01/);
 - [CSS Basics](https://bitbucket.org/ccartas/webtech-labs/src/master/lab02/);
