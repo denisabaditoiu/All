@@ -1,6 +1,6 @@
-# Homework 1 
+# Homework 1 - DONE
 # IMPORTANT: KEEP YOUR REPOSITORIES PUBLIC (DON'T MAKE YOUR REPOSITORY PRIVATE)
-# [Submit Homework Form](https://goo.gl/forms/d4n8ycMRxm2d66zX2)
+# [Submit Homework Form - CLOSED](https://goo.gl/forms/d4n8ycMRxm2d66zX2)
 # Deadline: 08.11.2018
 # Task
 - Using CSS grid layout, create an HTML page that respects the same schema found in the `page_layout.png`;
