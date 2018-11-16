@@ -4,4 +4,6 @@
 
 # Project Phases
 
-### [Phase 1 - Deadline 25.11.2018] 
+### -   Phase 1 - Deadline 25.11.2018 (END OF WEEK 7)
+### -   Phase 2 - 
+### -   Phase 3 - Last Laboratory (DEMO)
