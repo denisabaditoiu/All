@@ -1,0 +1,12 @@
+{
+  "name": "NodeJS WEB API",
+  "version": "0.0.1",
+  "author": "Cosmin Cartas",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
