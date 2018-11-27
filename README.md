@@ -17,3 +17,4 @@
 - [Javascript Basics: Part 3](https://bitbucket.org/ccartas/webtech-labs/src/master/lab05/);
 - [Create a CRUD REST API using NodeJS](https://bitbucket.org/ccartas/webtech-labs/src/master/lab06/);
 - [Create a CRUD REST API with Persistance Layer](https://bitbucket.org/ccartas/webtech-labs/src/master/lab07/);
+- [Todo App with React](https://bitbucket.org/ccartas/webtech-labs/src/master/lab08/)
