@@ -17,11 +17,19 @@
 - ### Action: an object that contains at least the type.
 - ### Store: the object that puts everything together.
 
-### Create the applications:
+### Create the application:
 
 - `npx create-react-app redux-basics`;
+
+### Install the dependencies:
+
 - `cd redux-basics`;
 - `npm install redux --save`;
 - `npm install redux-logger --save`;
 - `npm install redux-thunk --save`;
+- `npm install redux-promise-middleware --save`;
+
+### Start the app:
+
+- `npm start`;
 
