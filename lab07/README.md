@@ -9,7 +9,7 @@
 
 - `mysql-ctl install`;
 - `mysql-ctl start`;
-- Node down the `Root User` and `Database Name`;
+- Note down the `Root User` and `Database Name`;
 
 ### Create NodeJS Project
 
