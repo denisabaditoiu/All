@@ -1,10 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());
 
 let products = [
     {
@@ -37,6 +35,6 @@ app.post('/add', (req, res) => {
     }
 });
 
-app.listen(9090, process.env.IP, () => {
-    console.log(`Server started on port ${process.env.PORT}...`);
+app.listen(8090, () => {
+    console.log('Server started on port 8080...');
 });
