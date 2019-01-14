@@ -1,0 +1,23 @@
+{
+  "name": "s1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./index.js",
+    "test": "mocha --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-uglify": "^1.0.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
