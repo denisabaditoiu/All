@@ -17,4 +17,3 @@ function defaultParams(a, b = 5) {
 }
 
 console.log(defaultParams(3));
-
