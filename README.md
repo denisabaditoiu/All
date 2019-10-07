@@ -1,4 +1,4 @@
-# Web Technologies Labs:
+# Web Technologies Labs 2018-2019:
 
 # Project Details
 
@@ -19,3 +19,7 @@
 - [Create a CRUD REST API with Persistance Layer](https://bitbucket.org/ccartas/webtech-labs/src/master/lab07/);
 - [Todo App with React](https://bitbucket.org/ccartas/webtech-labs/src/master/lab08/);
 - [Redux Basics](https://bitbucket.org/ccartas/webtech-labs/src/master/lab09/);
+- [Lab 10](https://bitbucket.org/ccartas/webtech-labs/src/master/lab10/)
+- [Lab 11](https://bitbucket.org/ccartas/webtech-labs/src/master/lab11/)
+- [Lab 12](https://bitbucket.org/ccartas/webtech-labs/src/master/lab12/)
+- [Lab 13](https://bitbucket.org/ccartas/webtech-labs/src/master/lab13/)
