@@ -2,4 +2,4 @@
 
 # Assignments 
 
-- (Assignment 1 Submit Form - OPEN)[https://forms.gle/Wq9TSZgdKDYDjN7s5]
+- ### [Assignment 1 Submit Form - OPEN](https://forms.gle/Wq9TSZgdKDYDjN7s5)
