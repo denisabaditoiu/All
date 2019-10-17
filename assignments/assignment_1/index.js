@@ -6,7 +6,7 @@ const GRUPA = "";
 /**
  * Make the implementation here
  */
-function dynamicPropertyChecker(input, property) {
+function numberParser(input, property) {
     
 }
 
