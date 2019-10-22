@@ -6,7 +6,7 @@ const GRUPA = "";
 /**
  * Make the implementation here
  */
-function numberParser(input, property) {
+function numberParser(input) {
     
 }
 
