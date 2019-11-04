@@ -1,0 +1,58 @@
+#navigation {
+    display: flex;
+}
+
+#navigation > div {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#navigation > div:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#navigation > div:last-child {
+    margin-left: auto;
+}
+body {
+    height: 300vh;
+}
+#content {
+    height: 1000px;
+}
+
+#content  > div {
+    height: 50px;
+    width: 50px;
+}
+
+#relative {
+    position: relative;
+    left: 5%;
+    top: 2%;
+    background: orange;
+}
+
+#absolute {
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    background: red;
+}
+
+#fixed {
+    position: fixed;
+    top:5%;
+    background: yellow;
+}
+
+#sticky { 
+    position: sticky;
+    top: 5%;
+    left: 5%;
+    background: navy;
+}
