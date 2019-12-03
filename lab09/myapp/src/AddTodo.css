@@ -1,0 +1,15 @@
+.container {
+    position: absolute;
+    display: grid;
+    width: 25%;
+    grid-gap: 5px;
+    top:10%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+}
+
+.container > button {
+    width: 50%;
+    margin: 0 auto;
+}
