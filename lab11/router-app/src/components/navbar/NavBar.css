@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.container a {
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container a:hover {
+    color: #fff;
+    background: #000;
+}
+
+.container a:last-child {
+    margin-left: auto;
+}
