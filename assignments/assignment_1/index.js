@@ -1,13 +1,20 @@
 
-const FIRST_NAME = "";
-const LAST_NAME = "";
-const GRUPA = "";
+const FIRST_NAME = "Densa";
+const LAST_NAME = "Baditoiu";
+const GRUPA = "1074";
 
 /**
  * Make the implementation here
  */
-function numberParser(input) {
-    
+function numberParser(value) {
+     if(isFinite(value)  && (value >= Number.MIN_SAFE_INTEGER && value <= Number.MAX_SAFE_INTEGER) )
+   {
+       return parseInt(value); 
+   }
+   else
+   {
+       return NaN;
+   }  
 }
 
 module.exports = {

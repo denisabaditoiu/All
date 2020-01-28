@@ -12,6 +12,9 @@
     "jest": "^24.9.0"
   },
   "jest": {
-    "reporters": ["default", "<rootDir>/reporter.js"]
+    "reporters": [
+      "default",
+      "<rootDir>/reporter.js"
+    ]
   }
 }

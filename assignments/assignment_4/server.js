@@ -92,6 +92,34 @@ app.post('/authors/:id/books', async (req, res) => {
 	// ar trebui să adauge o carte la un autor
 	// TODO: implement the function
 	// should add a book to an author
+	
+ if(req.body.title && req.body.pages){
+	 Author.findOne({ where: { id: req.params.id }}).then( async result =>{
+	 if(result){
+			try{
+			await sequelize.sync()
+			let book= new Book({
+				title: req.body.title,
+				pages: req.body.pages,
+				authorId: req.params.id
+				})
+			await book.save()
+			res.status(201).json({ message : 'created' })
+			}
+			catch(err){
+			console.warn(err.stack)
+			res.status(500).json({ message : 'server error' })		
+			}
+		}
+		else{
+			res.status(404).json({ message : 'not found' })	
+		}
+	 })
+     }
+     else{
+			res.status(404).json({ message : 'not found' })	
+		 }
+
 })
 
 app.get('/authors/:id/books', async (req, res) => {
@@ -100,6 +128,22 @@ app.get('/authors/:id/books', async (req, res) => {
 
 	// TODO: implement the function
 	// should list all of an authors' books
+ Author.findOne({ where: { id: req.params.id }}).then(async result =>{
+		if(result){
+			try{
+			const resultAuthorsBooks = await Book.findAll({ where : { authorId : req.params.id }})
+			res.status(200).send(resultAuthorsBooks)
+		    }
+		    catch(err){
+			console.warn(err.stack)
+			res.status(500).json({ message : 'server error' })
+			}
+		}
+		else{
+			res.status(404).json({ message : 'not found' })
+		    }
+	})
+	
 })
 
 
